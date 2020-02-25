@@ -1,7 +1,7 @@
 from locust import HttpLocust, TaskSequence, seq_task, between
 from locust.exception import StopLocust
 from users import *
-from hash import *
+from hashes import *
 import locust.stats
 import random
 
